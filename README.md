@@ -1,2 +1,3 @@
 # pysparkMLCsv
-deploye Spark Machine Learning Model to Kubernities 
+Deploy Spark Machine Learning Model to Kubernities 
+
