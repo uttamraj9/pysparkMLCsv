@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: usuk-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: usukprediction
+        image: uttamraj9/naziruttamrep:usuktag
+      restartPolicy: Never
+  backoffLimit: 4
+
